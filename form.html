@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<form action="formulir.php" method="POST">
+	<h2>FORMULIR PPDB JALUR ZONASI TAHUN 2021</h2>
+		<fieldset>
+		<legend>INFO PENDAFTARAN</legend>
+		<p>
+			<label>NISN:<label>
+			<input type="text" name="nisn" placeholder="NISN..." />
+		</p>
+		<p>
+			<label>Asal Sekolah:<label>
+			<input type="text" name="asal_sekolah" placeholder="asal sekolah..." />
+		</p>
+		<p>
+			<label>Tahun Lulus:<label>
+			<input type="text" name="tahun_lulus" placeholder="Tahun Lulus..." />
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>DATA CALON PESERTA</legend>
+		<p>
+			<label>Nama Lengkap:<label>
+			<input type="text" name="name" placeholder="Nama lengkap..." />
+		</p>
+		<p>
+			<label>NIK:<label>
+			<input type="text" name="nik" placeholder="NIK..." />
+		</p>
+		<p>
+			<label>Tempat Lahir:<label>
+			<input type="text" name="tempat" placeholder="tempat lahir..." />
+		</p>
+		<p>
+			<label>Tanggal Lahir:<label>
+			<input type="date" name="tanggal" />
+		</p>
+		<p>
+			<label>Jenis Kelamin:<label>
+			<label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+			<label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+		</p>
+		<p>
+			<label>Alamat:</label>
+			<textarea name="alamat"></textarea>
+		</p>
+		<p>
+			<label>Email:<label>
+			<input type="email" name="email" placeholder="email aktif..." />
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>DATA ORANG TUA</legend>
+		<p>
+			<label>NOMOR KK:<label>
+			<input type="text" name="nokk" placeholder="No KK..." />
+		</p>
+		<p>
+			<label>Nama Ayah Kandung :<label>
+			<input type="text" name="ayah" placeholder="Nama Ayah Kandung..." />
+		</p>
+		<p>
+			<label>Agama:</label>
+			<select name="agama">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="katolik">Katolik</option>
+				<option value="hindu">Hindu</option>
+				<option value="budha">Budha</option>
+			</select>
+		</p>
+		<p>
+			<label>Pekerjaan:<label>
+			<input type="text" name="kerja" placeholder="Pekerjaan Ayah..." />
+		</p>
+		<p>
+			<label>Nama Ibu Kandung :<label>
+			<input type="text" name="ibu" placeholder="Nama Ibu Kandung..." />
+		</p>
+		<p>
+			<label>Agama:</label>
+			<select name="agama">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="katolik">Katolik</option>
+				<option value="hindu">Hindu</option>
+				<option value="budha">Budha</option>
+			</select>
+		</p>
+		<p>
+			<label>Pekerjaan:<label>
+			<input type="text" name="kerja" placeholder="Pekerjaan Ibu..." />
+		</p>
+		<p>
+			<label>Alamat Orang Tua:</label>
+			<textarea name="alamat2"></textarea>
+		</p>
+		</fieldset>
+		<p>
+			<input type="submit" name="submit" value="Daftar" />
+		</p>
+	</form>
+</body>
+</html>
